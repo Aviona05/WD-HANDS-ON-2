@@ -114,8 +114,8 @@ nav ul li a:hover::before {
 
 .card {
     border-radius: 10px;
-    border: 2px solid transparent;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 10px solid transparent;
+    box-shadow: 0 4px 8px rgb(249, 164, 17);
     text-align: center;
     overflow: hidden;
     width: 100%;
