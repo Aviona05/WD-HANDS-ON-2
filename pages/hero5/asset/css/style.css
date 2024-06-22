@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +7,13 @@
     font-family: "Lilita One", sans-serif;
 }
 
+body {
+    background-image: url(../img/techbg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
 .hero {
     position: relative;
     display: flex;
@@ -29,13 +37,13 @@ nav ul {
 
 nav ul li a {
     position: relative;
-    font-size: 12px;
+    font-size: 25px;
     font-family: "Lilita One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 400;
+    font-style: normal;
     color: #000000;
     text-decoration: none;
-    padding: 10px 40px;
+    padding: 10px 50px;
     transition: color 0.5s;
 }
 
@@ -59,4 +67,120 @@ nav ul li a::before {
 nav ul li a:hover::before {
     visibility: visible;
     transform: scaleX(1);
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 5% auto;
+}
+
+.product-area {
+    width: 30%;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+.img-area {
+    position: relative;
+    width: 100%;
+}
+
+.img-area img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.product-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.product-overlay:hover {
+    opacity: 0.9;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: opacity 0.5s ease;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.btn-1,
+.btn-2 {
+    display: inline-block;
+    padding: 20px 30px;
+    gap: 10px;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn-1 {
+    background-color: #8bed6d;
+}
+
+.btn-2 {
+    background-color: #75c1f3;
+}
+
+.info-area {
+    padding: 10px 20px;
+    text-align: center;
+    background: #000;
+}
+
+.info-area h3 {
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 10px;
+    color: #fff;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.rating {
+    margin-bottom: 10px;
+}
+
+.rating span {
+    color: #fff;
+}
+
+.checked {
+    color: orange !important;
+}
+
+.product-price {
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .product-area {
+        width: 48%;
+    }
+}
+
+@media (max-width: 576px) {
+    .product-area {
+        width: 100%;
+    }
 }
