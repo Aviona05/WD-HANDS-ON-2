@@ -5,29 +5,26 @@
 <br />
 <div align="center">
   <a href="https://github.com/zyx-0314/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/BEAR.png" width="130" height="100">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+
+  <h3 align="center">HERO AND CARDS</h3>
 </div>
-<!-- TODO: Make a short description -->
+
 <div align="center">
-  Short Description. (Optional)
+  Different designs and animation of Hero and Cards using HTML and CSS
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=Aviona05/WD-HANDS-ON-2)
 
 ---
 
 <br />
 <br />
 
-<!-- TODO: If you want to add more layers for your readme -->
+
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -55,22 +52,22 @@
 
 ## Overview
 
-<!-- TODO: To be changed -->
+
 <!-- The following are just sample -->
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- What is the project? This project is about creating diffeerent design and animation for hero and cards of a website.
+
+- Whats the purpose? The purpose of this project it to deliver attractive and practical elements that boost the website's user experience and strengthen brand identity. The designs should appeal to a wide range of interests and styles, providing consumers with several options.
+
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
+- Card Flip Animation
+- Hover Effect
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -117,4 +114,9 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+|Github|Get some ideas for landing page and flow of codes|https://github.com/zyx-0314/WD-Seatwork-3|
+|CSS Card Hover Effects HTML & CSS|Get some card design ideas|https://youtu.be/Q8BamnhOmWc?si=6W1lNtjXxt8iX5PC|
+|Responsive CSS Cards with Hover Overlay Animation|Get some card design ideas|https://youtu.be/c-6XRnYHbkw?si=e119AOUA_W7eo_YY|
+|How To Make A Website Header Using HTML And CSS Step By Step Web Design In HTML & CSS|Get some ideas|https://youtu.be/Oa9LTDR9ugU?si=VryKGavWu1ADQPFF|
+|Divinectorweb|Get some card design and animation ideas |https://www.youtube.com/results?search_query=divinectorweb |
+|CSS Card Flipping Animation on hover CSS Animation Tutorial |Get card animation ideas|https://youtu.be/YMK8lCu59LU?si=lsi02w83prgmB5za|
