@@ -37,12 +37,12 @@ nav ul {
 
 nav ul li a {
     position: relative;
-    font-size: 33px;
+    font-size: 25px;
     font-family: "Lilita One", sans-serif;
     font-weight: 100;
     color: #000000;
     text-decoration: none;
-    padding: 10px 60px;
+    padding: 10px 50px;
     transition: color 0.5s;
 }
 
@@ -195,9 +195,226 @@ nav ul li a:hover::before {
 
 /*design 3 static*/
 
+.container {
+    display: flex;
+    place-items: center;
+    margin-inline: 1.5rem;
+    padding-right: 5px;
+  }
+  
+  .card__container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap
+  }
+  
+  .card__article {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .card__img {
+    width: 328px;
+    border-radius: 1.5rem;
+  }
+  
+  .card__data {
+    width: 250px;
+    background-color:burlywood;
+    box-shadow: 0 8px 24px hsla(0, 0%, 0%, .15);
+    border-radius: 1rem;
+    position: absolute;
+    bottom: -9rem;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 1s 1s;
+  }
+  
+  .card__description {
+    display: block;
+    font-size: 10px;
+    margin-bottom: .25rem;
+  }
+  
+  .card__title {
+    font-size: 30px;
+    font-weight: 80;
+    color: var(--title-color);
+    margin-bottom: .75rem;
+  }
+  
+  .card__button {
+    text-decoration: none;
+    font-size: var(--small-font-size);
+    font-weight: 100;
+    color: var(--first-color);
+    background-color: aliceblue;
+  }
+/*design4 static*/
+.wrapperS {
+    padding: 70px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.servicesS {
+    width: 1100px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.single-imgS {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    width: 325px;
+    height: 450px;
+    overflow: hidden;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.img-oneS {
+    background-image: url(../img/barney.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-twoS {
+    background-image: url(../img/BJ.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-threeS {
+    background-image: url(../img/BABY\ BOP.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-textS {
+    background: linear-gradient(to top, rgba(179, 44, 237, 0.9), rgba(255, 255, 255, 0));
+    padding: 0 10px 5px 10px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+}
+
+.img-textS h4 {
+    line-height: 15px;
+    margin: 16px 0;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 25px;
+}
+
+.servicesS button {
+    background: #252525;
+    color: #fff;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+/*design5 static*/
+.wrapper-4S {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.product-areaS {
+    width: 30%;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+.img-areaS {
+    position: relative;
+    width: 100%;
+}
+
+.img-areaS img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.product-overlayS {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.overlayS {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    visibility: hidden;
+}
+
+.btn-1S,
+.btn-2S {
+    display: inline-block;
+    padding: 20px 30px;
+    gap: 10px;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn-1S {
+    background-color: #8bed6d;
+}
+
+.btn-2S {
+    background-color: #75c1f3;
+}
+
+.info-areaS {
+    padding: 10px 20px;
+    text-align: center;
+    background: #000;
+}
+
+.info-areaS h3 {
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 10px;
+    color: #fff;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.product-priceS {
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
 
 
-/*design2 animated*/
+/*design1Animated*/
 .main-content {
     text-align: center;
     padding: 20px;
@@ -312,105 +529,163 @@ nav ul li a:hover::before {
 }
 
 /*design3*/
-.wrapper-3 {
-    width: 100%;
-        height: 50vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-}
-
 .container-3 {
-    height: 400px;
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: start;
+    place-items: center;
+    margin-inline: 1.5rem;
+    padding-right: 5px;
+    flex-wrap: wrap;
 }
-
-.card-3 {
-    width: 80px;
-        border-radius: .75rem;
-        background-size: cover;
-        cursor: pointer;
-        overflow: hidden;
-        border-radius: 2rem;
-        margin: 0 10px;
-        display: flex;
-        align-items: flex-end;
-        transition: .6s cubic-bezier(.28,-0.03,0,.99);
-        box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.8);
-}
-
-.card-3 > .row {
-    color: rgb(255, 145, 0);
-        display: flex;
-        flex-wrap: nowrap;
-}
-
-.card-3 > .row > .icon {
-    background: #223;
-    color: white;
-    border-radius: 50%;
-    width: 50px;
+  
+.card__container-3 {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 15px;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
-
-.card-3 > .row > .description {
-    display: flex;
-        justify-content: center;
-        flex-direction: column;
-        overflow: hidden;
-        height: 80px;
-        width: 520px;
-        opacity: 0;
-        transform: translateY(30px);
-        transition-delay: .3s;
-        transition: all .3s ease;
+  
+.card__article-3 {
+    position: relative;
+    overflow: hidden;
+    margin: 1rem;
 }
-
-.description p {
-    color: #000000;
-    padding-top: 5px;
-    background-color: rgb(255, 255, 255);
-    width: 60%;
+  
+.card__img {
+    width: 328px;
+    border-radius: 1.5rem;
 }
-
-.description h2 {
-    text-transform: uppercase;
+  
+.card__data-3 {
+    width: 250px;
+    background-color: burlywood;
+    box-shadow: 0 8px 24px hsla(0, 0%, 0%, .15);
+    border-radius: 1rem;
+    position: absolute;
+    bottom: -9rem;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 1s 1s;
 }
-
-input {
-    display: none;
+  
+.card__description-3 {
+    display: block;
+    font-size: 10px;
+    margin-bottom: .25rem;
 }
-
-input:checked + label {
-    width: 600px;
+  
+.card__title-3 {
+    font-size: 30px;
+    font-weight: 800;
+    color: var(--title-color);
+    margin-bottom: .75rem;
 }
-
-input:checked + label .description {
-    width: auto;
+  
+.card__button-3 {
+    text-decoration: none;
+    font-size: var(--small-font-size);
+    font-weight: 100;
+    color: var(--first-color);
+    background-color: aliceblue;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+  
+.card__button-3:hover {
+    text-decoration: underline;
+}
+  
+.card__article-3:hover .card__data-3 {
+    animation: show-data-3 1s forwards;
     opacity: 1;
+    transition: opacity .3s;
+}
+  
+.card__article-3:hover {
+    animation: remove-overflow-3 2s forwards;
+}
+  
+.card__article-3:not(:hover) {
+    animation: show-overflow-3 2s forwards;
+}
+  
+.card__article-3:not(:hover) .card__data-3 {
+    animation: remove-data-3 1s forwards;
+}
+  
+@keyframes show-data-3 {
+    50% {
+        transform: translateY(-10rem);
+    }
+    100% {
+        transform: translateY(-7rem);
+    }
+}
+  
+@keyframes remove-overflow-3 {
+    to {
+        overflow: initial;
+    }
+}
+  
+@keyframes remove-data-3 {
+    0% {
+        transform: translateY(-7rem);
+    }
+    50% {
+        transform: translateY(-10rem);
+    }
+    100% {
+        transform: translateY(0.5rem);
+    }
+}
+  
+@keyframes show-overflow-3 {
+    0% {
+        overflow: initial;
+        pointer-events: none;
+    }
+    50% {
+        overflow: hidden;
+    }
 }
 
-label[for="c1"] {
-    background-image: url(../img/shoyo.jpg);
+@media screen and (max-width: 340px) {
+    .container-3 {
+        margin-inline: 1rem;
+    }
+  
+    .card__data-3 {
+        width: 250px;
+        padding: 1rem;
+    }
+}
+  
+@media screen and (min-width: 768px) {
+    .card__container-3 {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1.5rem;
+    }
+}
+  
+@media screen and (min-width: 1120px) {
+    .container-3 {
+        height: 100vh;
+    }
+  
+    .card__container-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .card__img {
+        width: 348px;
+    }
+
+    .card__data-3 {
+        width: 316px;
+        padding-inline: 2.5rem;
+    }
 }
 
-label[for="c2"] {
-    background-image: url(../img/char2.jpg);
-}
-
-label[for="c3"] {
-    background-image: url(../img/char3.jpg);
-}
-
-label[for="c4"] {
-    background-image: url(../img/char4.jpg);
-}
 
 /*design4 animated*/
 .wrapper{
@@ -503,5 +778,123 @@ label[for="c4"] {
     }
     a{
         margin-bottom: 35px;
+    }
+}
+
+/*design5*/
+.wrapper-4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin:  auto;
+    flex-direction: row
+}
+
+.product-area {
+    width: 30%;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+.img-area {
+    position: relative;
+    width: 100%;
+}
+
+.img-area img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.product-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.product-overlay:hover {
+    opacity: 0.9;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: opacity 0.5s ease;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.btn-1,
+.btn-2 {
+    display: inline-block;
+    padding: 20px 30px;
+    gap: 10px;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn-1 {
+    background-color: #8bed6d;
+}
+
+.btn-2 {
+    background-color: #75c1f3;
+}
+
+.info-area {
+    padding: 10px 20px;
+    text-align: center;
+    background: #000;
+}
+
+.info-area h3 {
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 10px;
+    color: #fff;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.rating {
+    margin-bottom: 10px;
+}
+
+.rating span {
+    color: #fff;
+}
+
+.checked {
+    color: orange !important;
+}
+
+.product-price {
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .product-area {
+        width: 48%;
+    }
+}
+
+@media (max-width: 576px) {
+    .product-area {
+        width: 100%;
     }
 }
